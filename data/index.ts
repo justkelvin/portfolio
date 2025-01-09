@@ -1,3 +1,5 @@
+import { url } from "inspector";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -209,13 +211,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/justkelvin"
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://x.com/alias_notfound",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "http://linkedin.com/in/kelvinmuinde",
   },
 ];
